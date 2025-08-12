@@ -1,0 +1,12 @@
+.fingercounter-container {
+  position: relative;
+  display: inline-block;
+}
+
+.output_canvas {
+  border: 2px solid #2980b9;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  background-color: #eee;
+}

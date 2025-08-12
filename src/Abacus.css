@@ -1,0 +1,33 @@
+.abacus-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.rod {
+  background: #8b5e3c;
+  width: 20px;
+  height: 150px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.bead {
+  width: 28px;
+  height: 28px;
+  background-color: #f39c12;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.bead:hover {
+  transform: translateX(10px);
+}
